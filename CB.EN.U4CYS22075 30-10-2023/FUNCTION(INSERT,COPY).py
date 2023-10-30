@@ -1,0 +1,15 @@
+myneighbours = ["Vishal"]
+myneighbours.append("Mukesh")
+print(myneighbours)
+myneighbours.insert(0, "Sarvesh")
+print(myneighbours)
+myneighbours.append("Vijay")
+print(myneighbours)
+myneighbours.insert(1, "Sathvik")
+print(myneighbours)
+myneighbours2 = myneighbours.copy()
+myneighbours.clear()
+print(myneighbours)
+del myneighbours
+# print(myneighbours)
+print(myneighbours2)
